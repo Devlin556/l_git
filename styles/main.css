@@ -1,0 +1,59 @@
+@font-face{
+font-family: 'Roboto';
+src : url('../fonts/Roboto/Roboto-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'Roboto-Black';
+src : url('../fonts/Roboto/Roboto-Black.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'Roboto-Thin';
+src : url('../fonts/Roboto/Roboto-Thin.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+h1,p{
+  font-family: Roboto;
+  letter-spacing: 0.5px;
+  padding: 5px 10px;
+  cursor: default;
+}
+*{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  user-select: none;
+}
+.button {
+  width: 62px;
+  height: 32px;
+  transition: all .3s ease-in-out;
+  border: 1px solid #eee;
+  position: relative;
+  border-radius: 25px;
+  margin-left: 10px;
+  user-select: none;
+}
+.slider {
+  width: 29px;
+  height: 30px;
+  background: #fff;
+  left: 0;
+  box-shadow: 0 0 4px #999;
+  top: 0;
+  position: absolute;
+  border-radius: 50%;
+  transition: all .3s;
+  cursor: pointer;
+  user-select: none;
+}
+.active-slider {
+  left: 50%;
+}
+.green {
+  transition: all .3s ease-in-out;
+  background: #66bb6a;
+}
