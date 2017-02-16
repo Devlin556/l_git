@@ -9,12 +9,12 @@ $('.slider').mousedown(function (ev) {
             console.log(newLeft);
             if(newLeft < 15) {
               $('.button').removeClass('green');
-              newLeft = 0
+              newLeft = 1
               $('.button').attr('state',0);
             }
             if(newLeft >= 15) {
               $('.button').addClass('green');
-              newLeft = rightEdge;
+              newLeft = rightEdge - 1;
               $('.button').attr('state',1);
             }
             $(ev.target).css('left' , newLeft+'px');

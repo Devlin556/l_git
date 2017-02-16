@@ -38,12 +38,13 @@ h1,p{
   user-select: none;
 }
 .slider {
-  width: 29px;
-  height: 30px;
+  width: 25px;
+  height: 26px;
   background: #fff;
   left: 0;
-  box-shadow: 0 0 4px #999;
-  top: 0;
+
+  box-shadow: 0 0 4px #777;
+  top: 2px;
   position: absolute;
   border-radius: 50%;
   transition: all .3s;
